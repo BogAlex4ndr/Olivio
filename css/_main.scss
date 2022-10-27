@@ -3,156 +3,150 @@
 .how-it-works {
 }
 .how-it-works__conteiner {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 1413px;
-    padding-bottom: 120px;
-
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1413px;
+  padding-bottom: 120px;
 }
 .how-it-works__top {
- 
 }
 .top-content {
-    padding-bottom: 120px;
- .under__title {
-        margin-bottom: 0;
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1.5rem;
- } 
+  padding-bottom: 120px;
+  .under__title {
+    margin-bottom: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
 }
 .top__content-title {
-    
 }
 .top-content__text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 136px;
-    
-    h2 {
-        flex: 0 1 50%;
-        font-size: 2.5rem;
-        margin: 20px 0;
-    }
-    p {
-        flex: 0 1 50%;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 136px;
+
+  h2 {
+    flex: 0 1 50%;
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  p {
+    flex: 0 1 50%;
+  }
 }
 .how-it-works-items {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 95px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 95px;
 }
 .first__card {
-    flex: 0 1 33.333%;
-    padding-top: 50px;
+  flex: 0 1 33.333%;
+  padding-top: 50px;
 }
 .first__card-title {
-    margin-left: 88px;
-    position: relative;
+  margin-left: 88px;
+  position: relative;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  &::before {
+    content: '01';
+    position: absolute;
+    font-weight: 400;
     font-family: 'Georgia';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #000;
-    &::before {
-        content: '01';
-        position: absolute;
-        font-weight: 400;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-size: 150px;
-        top: -130px;
-        left: -90px;
-        color: rgba(1, 153, 109, 0.2); 
-    }
+    font-size: 150px;
+    top: -130px;
+    left: -90px;
+    color: rgba(1, 153, 109, 0.2);
+  }
 }
 .first__card-text {
 }
 .first__card-image {
-    max-width: 390px;
-    position: relative;
-    &::after {
-        content: '';
-        position: absolute;
-        background: url('../images/laptom_img.jpg') no-repeat;
-        background-size: contain;
-        width: 184px;
-        height: 148px;
-        top: 228px;
-        right: 0px;
-    }
-    img {
-        border-radius: 20px;
-    }
+  max-width: 390px;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    background: url('../images/laptom_img.jpg') no-repeat;
+    background-size: contain;
+    width: 184px;
+    height: 148px;
+    top: 228px;
+    right: 0px;
+  }
+  img {
+    border-radius: 20px;
+  }
 }
 .second__card {
-    padding-top: 287px;
-    flex: 0 1 33.333%;
+  padding-top: 287px;
+  flex: 0 1 33.333%;
 }
 .second__card-title {
-    margin-left: 88px;
-    position: relative;
+  margin-left: 88px;
+  position: relative;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  &::before {
+    content: '02';
+    position: absolute;
+    font-weight: 400;
     font-family: 'Georgia';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #000;
-    &::before {
-        content: '02';
-        position: absolute;
-        font-weight: 400;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-size: 150px;
-        top: -130px;
-        left: -90px;
-        color: rgba(1, 153, 109, 0.2); 
-    }
+    font-size: 150px;
+    top: -130px;
+    left: -90px;
+    color: rgba(1, 153, 109, 0.2);
+  }
 }
 .second__card-text {
-    
 }
 .second__card-image {
-
-    img {
-        border-radius: 20px;
-    }
+  img {
+    border-radius: 20px;
+  }
 }
 .third__card {
-    padding-top: 80px;
-    flex: 0 1 33.333%;
+  padding-top: 80px;
+  flex: 0 1 33.333%;
 }
 .third__card-title {
-    margin-left: 125px;
-    position: relative;
+  margin-left: 125px;
+  position: relative;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  &::before {
+    content: '03';
+    position: absolute;
+    font-weight: 400;
     font-family: 'Georgia';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #000;
-    &::before {
-        content: '03';
-        position: absolute;
-        font-weight: 400;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-size: 150px;
-        top: -130px;
-        left: -120px;
-        color: rgba(1, 153, 109, 0.2); 
-    }
-   
+    font-size: 150px;
+    top: -130px;
+    left: -120px;
+    color: rgba(1, 153, 109, 0.2);
+  }
 }
 .third__card-text {
 }
 .third__card-image {
-    img {
-        border-radius: 20px;
-    }
+  img {
+    border-radius: 20px;
+  }
 }
 
 //========================ABOUT========================//
@@ -160,43 +154,42 @@
 .page__about {
 }
 .about {
-    background-color: $bg-color;
-    color: $text-withe;
+  background-color: $bg-color;
+  color: $text-withe;
 }
 .about__conteiner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 20px;
-    column-gap: 31px;
-    padding-top: 250px;
-    padding-bottom: 120px;
-    max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  column-gap: 31px;
+  padding-top: 250px;
+  padding-bottom: 120px;
+  max-width: 1500px;
 }
 .about__info {
-    flex: 0 1 50%;
-    display: flex;
-    flex-direction: column;
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
 }
 .about__title {
-    margin-bottom: 0;
-    
+  margin-bottom: 0;
 }
 .about__text {
-    color: $text-withe;
-    font-size: 1.5rem;
-    margin-bottom: 57px;
+  color: $text-withe;
+  font-size: 1.5rem;
+  margin-bottom: 57px;
 }
 .about__button-button {
 }
 .about__video {
-    flex: 0 1 50%;
-    iframe{ 
-        width: 50vw;
-        height: 80vh;
-        border-radius: 20px;
-    }
+  flex: 0 1 50%;
+  iframe {
+    width: 50vw;
+    height: 80vh;
+    border-radius: 20px;
+  }
 }
 
 //========================OUR PRODUCTS========================//
@@ -204,79 +197,76 @@
 .page__products {
 }
 .products {
-    padding-top: 120px;
-    padding-bottom: 200px;
+  padding-top: 120px;
+  padding-bottom: 200px;
 }
 .products__conteiner {
-    display: flex;
-    max-width: 1370px;
-    margin: 0 auto;
-    justify-content: space-around;
-    align-items: flex-start;
-    column-gap: 85px;
+  display: flex;
+  max-width: 1370px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: flex-start;
+  column-gap: 85px;
 }
 .products__image {
-        text-align: center;
-        margin-left: 60px;
-        border-radius: 20px;
-        img {
-            border-radius: 20px;
-
-        }
+  text-align: center;
+  margin-left: 60px;
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+  }
 }
 .products__image-block {
-    position: relative;
+  position: relative;
 }
 .products__image-description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    position: absolute;
-    width: 296px;
-    top: 300px;
-    padding-left: 16px;
-    border-radius: 10px;
-    font-size: .8em;
-    h3 {
-        text-align: start;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 700;
-        color: #000;
-        margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  width: 296px;
+  top: 300px;
+  padding-left: 16px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  h3 {
+    text-align: start;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    margin-top: 0;
+  }
+
+  ul {
+    text-align: start;
+    li {
+      list-style-type: disc;
+      line-height: 1.5;
     }
-  
-    ul {
-        text-align: start;
-        li {
-            list-style-type: disc;
-            line-height: 1.5;
-        }
-        
-    }
+  }
 }
 .descr__title {
-    font-weight: 600;
-    font-size: 1rem;
-    color: #000;
-    &::after {
-        content: '';
-        margin-top: 8px;
-        display: block;
-        width: 100%;
-        height: 1px;
-        background-color: #000;
-    }
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000;
+  &::after {
+    content: '';
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+  }
 }
 .descr__image {
-    border-radius: 50%;
-    
+  border-radius: 50%;
 }
 .descr__items {
 }
 .descr__item:not(:last-child) {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .products__info {
@@ -284,62 +274,59 @@
 .info {
 }
 .above__title {
-    font-weight: 600;
-    font-size: 25px;
-    margin-top: 0;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 0;
 }
 .info__block {
 }
 .title-products {
-    margin-top: 0;
-    color: $secondary-color;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
+  margin-top: 0;
+  color: $secondary-color;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 .info__text {
-    margin-bottom: 57px;
+  margin-bottom: 57px;
 }
 .info__button-button {
 }
 
 .descr__image {
-    width: 57px;
-    height: 57px;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+  border-radius: 50%;
 }
-
 
 //========================FOOTER========================//
 
 .footer {
 }
 .footer__conteiner {
-    background-color: $bg-color;
+  background-color: $bg-color;
+  color: white;
+  a {
     color: white;
-    a {
-        color: white;
-        &:hover {
-            color: $secondary-color;
-        }
+    &:hover {
+      color: $secondary-color;
     }
+  }
 }
 .footer__nav {
 }
 .footer-nav {
-    padding: 90px 285px;
+  padding: 90px 285px;
 }
 .footer-nav__items {
-   
 }
 .footer-nav__item {
-
-    font-size: 1.5em;
-    padding-bottom: 50px;
-    &:first-child {
-        font-size: 3em;
-    }
+  font-size: 1.5em;
+  padding-bottom: 50px;
+  &:first-child {
+    font-size: 3em;
+  }
 }

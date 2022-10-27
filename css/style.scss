@@ -5,66 +5,68 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
 
 :root {
-    font-size: 20px;
+  font-size: 20px;
 }
 * {
-font-family: Lato;
-color: $main-text-color;
-font-weight: 500;
-line-height: 1.5;
+  font-family: Lato;
+  color: $main-text-color;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
-html, body {
-    height: 100%;
-    min-width: 320px;
+html,
+body {
+  height: 100%;
+  min-width: 320px;
 }
 
 .wrapper {
-    overflow: hidden;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .page {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 * {
-    // margin: 0;
+  // margin: 0;
 }
 
-*::before, *::after {
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: $main-text-color;
+  text-decoration: none;
+  color: $main-text-color;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .title {
-    color: $secondary-color;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 1.5;
+  color: $secondary-color;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .title-white {
-    color: $text-withe;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 1.5;
+  color: $text-withe;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }

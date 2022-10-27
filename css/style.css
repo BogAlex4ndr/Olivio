@@ -17,7 +17,7 @@
   font-family: Lato;
   font-weight: 900;
   font-size: 32px;
-  color: #01996D;
+  color: #01996d;
 }
 
 .header__logo:hover span {
@@ -26,7 +26,7 @@
 
 .header__menu {
   -moz-column-gap: 120px;
-       column-gap: 120px;
+  column-gap: 120px;
   align-items: center;
 }
 
@@ -41,39 +41,39 @@
 }
 
 .menu__link:hover {
-  color: #01996D;
+  color: #01996d;
 }
 
 .sign__in-block {
   display: flex;
   -moz-column-gap: 35px;
-       column-gap: 35px;
+  column-gap: 35px;
   align-items: center;
 }
 
 .sign-in:hover {
-  color: #01996D;
+  color: #01996d;
 }
 
-[class*=-button] {
+[class*='-button'] {
   display: inline-block;
   color: white;
   align-items: center;
   padding: 0.8rem 3.12rem;
-  background: #01996D;
-  border: 1px solid #01996D;
+  background: #01996d;
+  border: 1px solid #01996d;
   border-radius: 8px;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
 }
-[class*=-button]:hover {
+[class*='-button']:hover {
   background-color: #00815d;
   color: #ffffff;
 }
 
 .header__info {
-  background: url("../images/background_header.jpg") center no-repeat;
+  background: url('../images/background_header.jpg') center no-repeat;
   height: 895px;
   margin-bottom: 120px;
   display: flex;
@@ -115,7 +115,7 @@
 }
 .top-content .under__title {
   margin-bottom: 0;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 1.5rem;
@@ -126,7 +126,7 @@
   justify-content: space-between;
   align-items: center;
   -moz-column-gap: 136px;
-       column-gap: 136px;
+  column-gap: 136px;
 }
 .top-content__text h2 {
   flex: 0 1 50%;
@@ -141,7 +141,7 @@
   display: flex;
   justify-content: space-between;
   -moz-column-gap: 95px;
-       column-gap: 95px;
+  column-gap: 95px;
 }
 
 .first__card {
@@ -152,17 +152,17 @@
 .first__card-title {
   margin-left: 88px;
   position: relative;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   color: #000;
 }
 .first__card-title::before {
-  content: "01";
+  content: '01';
   position: absolute;
   font-weight: 400;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-size: 150px;
   top: -130px;
@@ -175,9 +175,9 @@
   position: relative;
 }
 .first__card-image::after {
-  content: "";
+  content: '';
   position: absolute;
-  background: url("../images/laptom_img.jpg") no-repeat;
+  background: url('../images/laptom_img.jpg') no-repeat;
   background-size: contain;
   width: 184px;
   height: 148px;
@@ -196,17 +196,17 @@
 .second__card-title {
   margin-left: 88px;
   position: relative;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   color: #000;
 }
 .second__card-title::before {
-  content: "02";
+  content: '02';
   position: absolute;
   font-weight: 400;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-size: 150px;
   top: -130px;
@@ -226,17 +226,17 @@
 .third__card-title {
   margin-left: 125px;
   position: relative;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   color: #000;
 }
 .third__card-title::before {
-  content: "03";
+  content: '03';
   position: absolute;
   font-weight: 400;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-size: 150px;
   top: -130px;
@@ -260,7 +260,7 @@
   margin: 0 auto;
   padding: 0 20px;
   -moz-column-gap: 31px;
-       column-gap: 31px;
+  column-gap: 31px;
   padding-top: 250px;
   padding-bottom: 120px;
   max-width: 1500px;
@@ -303,7 +303,7 @@
   justify-content: space-around;
   align-items: flex-start;
   -moz-column-gap: 85px;
-       column-gap: 85px;
+  column-gap: 85px;
 }
 
 .products__image {
@@ -333,7 +333,7 @@
 }
 .products__image-description h3 {
   text-align: start;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 700;
   color: #000;
@@ -353,7 +353,7 @@
   color: #000;
 }
 .descr__title::after {
-  content: "";
+  content: '';
   margin-top: 8px;
   display: block;
   width: 100%;
@@ -377,8 +377,8 @@
 
 .title-products {
   margin-top: 0;
-  color: #01996D;
-  font-family: "Georgia";
+  color: #01996d;
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 700;
   font-size: 3rem;
@@ -393,7 +393,7 @@
   width: 57px;
   height: 57px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -405,7 +405,7 @@
   color: white;
 }
 .footer__conteiner a:hover {
-  color: #01996D;
+  color: #01996d;
 }
 
 .footer-nav {
@@ -426,11 +426,11 @@
   }
   .header__menu {
     -moz-column-gap: 50px;
-         column-gap: 50px;
+    column-gap: 50px;
     align-items: center;
   }
   .header__info {
-    background: url("../images/BG_1199.jpg") center no-repeat;
+    background: url('../images/BG_1199.jpg') center no-repeat;
     margin-top: 0;
     height: 558px;
     padding-bottom: 30px;
@@ -473,14 +473,14 @@
   }
   .header__menu {
     -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     align-items: center;
   }
   .sign__in-block {
     -moz-column-gap: 10px;
-         column-gap: 10px;
+    column-gap: 10px;
   }
-  [class*=-button] {
+  [class*='-button'] {
     padding: 0.2rem 0.8rem;
     font-size: 0.8rem;
   }
@@ -521,7 +521,7 @@
   }
   .sign__in-block {
     -moz-column-gap: 35px;
-         column-gap: 35px;
+    column-gap: 35px;
   }
   .how-it-works-items {
     display: flex;
@@ -574,7 +574,7 @@
   }
   .products__image-description h3 {
     text-align: start;
-    font-family: "Georgia";
+    font-family: 'Georgia';
     font-style: normal;
     font-weight: 700;
     color: #000;
@@ -603,11 +603,11 @@
     position: relative;
   }
   .first__card-image::after {
-    content: "";
+    content: '';
     position: absolute;
-    background: url("../images/laptom_img.jpg") no-repeat;
+    background: url('../images/laptom_img.jpg') no-repeat;
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 150px;
     height: 110px;
     top: 188px;
@@ -621,7 +621,7 @@
     margin-top: 0px;
   }
   .header__info {
-    background: url("../images/BG_1199.jpg") no-repeat;
+    background: url('../images/BG_1199.jpg') no-repeat;
     background-size: auto auto;
     margin-top: 0;
     height: 100%;
@@ -652,7 +652,8 @@
   line-height: 1.5;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   min-width: 320px;
 }
@@ -668,7 +669,8 @@ html, body {
   flex: 1 1 auto;
 }
 
-*::before, *::after {
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   border: none;
@@ -690,8 +692,8 @@ ul {
 }
 
 .title {
-  color: #01996D;
-  font-family: "Georgia";
+  color: #01996d;
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -700,9 +702,9 @@ ul {
 
 .title-white {
   color: #fff;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 1.5;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
